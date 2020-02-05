@@ -35,8 +35,8 @@ $Outlook.Quit()
 Stop-Process -Name "OUTLOOK" -Force
 
 #Exchange CLI
-#Save the emails.txt file to the desktop on BEMAMS101
-#Run the below on exchange server with AD module installed(BEMAMS101)
+#Save the emails.txt file to the desktop on *sanitized
+#Run the below on exchange server with AD module installed(*sanitized)
 
 #Grab desktop path
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
