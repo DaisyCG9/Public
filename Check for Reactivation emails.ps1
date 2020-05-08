@@ -3,7 +3,7 @@
 #*** IMPORTANT Please clear any CNA support emails that contain Account Suspension Request and are an escalation rather than a ticket assignment notification
 #You can also do this by creating a new folder and moving the emails you would like to process into it and then changing the below specified folder
 #Parameters (must be changed depending on user)
-$Account = "quinn.favo@carmeusena.com"
+$Account = "quinn.favo@carmeuse.com"
 $Folder = "Inbox"
 #Variable used to search the body of emails
 $BodySearch = "*Account Reactivation Request*"
@@ -43,9 +43,9 @@ $DesktopPath = [Environment]::GetFolderPath("Desktop")
 
 $EnableUsers = Get-Content $DesktopPath\emails.txt | Where-Object { $_.Contains("UserID:") }
 Write-Output $EnableUsers
-$Manager = Get-Content $DesktopPath\emails.txt | Where-Object { $_.Contains("@CARMEUSENA.COM") }
+$Manager = Get-Content $DesktopPath\emails.txt | Where-Object { $_.Contains("@CARMEUSE.COM") }
 Write-Output $Manager
-$Ticket = Get-Content $DesktopPath\emails.txt | Where-Object { $_.Contains("17") }
+$Ticket = Get-Content $DesktopPath\emails.txt | Where-Object { $_.Contains("19") }
 Write-Output $Ticket
 
 $Date = Get-Date
