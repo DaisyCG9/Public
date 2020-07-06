@@ -1,0 +1,1 @@
+New-MailContact -Alias "tester" -Name "tester" -ExternalEmailAddress "tester@sp.carmeuse.com" -PrimarySmtpAddress "tester@sp.carmeuse.com" -OrganizationalUnit "carmeuse.net/CARMEUSE/NAM/NAM Contacts"
